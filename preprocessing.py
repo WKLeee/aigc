@@ -38,16 +38,10 @@ def question_mapper(questions, mapper_size):
 
         new_q += temp_q
         new_questions.append(new_q)
-
-        # print(q)
-        # print(new_q)
-        # print(mapper)
-        # input()
         mapper_list.append(mapper)
     #print(max_count)
 
     return(new_questions, mapper_list)
-        #break
 
 if __name__=="__main__":
     mapper_size = 10
